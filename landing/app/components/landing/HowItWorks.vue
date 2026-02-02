@@ -11,8 +11,8 @@
         <div class="hidden md:block absolute top-12 left-1/6 right-1/6 h-0.5 bg-gray-200 -z-10"></div>
 
         <!-- Step 1 -->
-        <div class="flex flex-col items-center text-center">
-          <div class="h-24 w-24 bg-white rounded-2xl border border-gray-200 shadow-sm flex items-center justify-center text-2xl font-bold text-gray-900 mb-6">
+        <div class="flex flex-col items-center text-center group">
+          <div class="h-24 w-24 bg-white rounded-2xl border border-gray-200 shadow-sm flex items-center justify-center text-2xl font-bold text-blue-ribbon-600 mb-6 group-hover:border-blue-ribbon-200 group-hover:shadow-blue-ribbon-100 transition-all">
             1
           </div>
           <h3 class="text-xl font-bold text-gray-900 mb-2">Upload your data</h3>
@@ -20,8 +20,8 @@
         </div>
 
         <!-- Step 2 -->
-        <div class="flex flex-col items-center text-center">
-          <div class="h-24 w-24 bg-white rounded-2xl border border-gray-200 shadow-sm flex items-center justify-center text-2xl font-bold text-gray-900 mb-6">
+        <div class="flex flex-col items-center text-center group">
+          <div class="h-24 w-24 bg-white rounded-2xl border border-gray-200 shadow-sm flex items-center justify-center text-2xl font-bold text-blue-ribbon-600 mb-6 group-hover:border-blue-ribbon-200 group-hover:shadow-blue-ribbon-100 transition-all">
             2
           </div>
           <h3 class="text-xl font-bold text-gray-900 mb-2">AI generates content</h3>
@@ -29,8 +29,8 @@
         </div>
 
         <!-- Step 3 -->
-        <div class="flex flex-col items-center text-center">
-          <div class="h-24 w-24 bg-white rounded-2xl border border-gray-200 shadow-sm flex items-center justify-center text-2xl font-bold text-gray-900 mb-6">
+        <div class="flex flex-col items-center text-center group">
+          <div class="h-24 w-24 bg-white rounded-2xl border border-gray-200 shadow-sm flex items-center justify-center text-2xl font-bold text-blue-ribbon-600 mb-6 group-hover:border-blue-ribbon-200 group-hover:shadow-blue-ribbon-100 transition-all">
             3
           </div>
           <h3 class="text-xl font-bold text-gray-900 mb-2">Publish & share</h3>

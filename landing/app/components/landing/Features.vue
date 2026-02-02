@@ -8,9 +8,9 @@
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <!-- Feature 1 -->
-        <div class="p-8 rounded-xl border border-gray-200 bg-white shadow-sm hover:shadow-md transition-shadow">
-          <div class="h-10 w-10 flex items-center justify-center rounded-lg bg-gray-100 mb-6">
-             <svg class="w-6 h-6 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <div class="p-8 rounded-xl border border-gray-100 bg-white shadow-sm hover:shadow-md hover:border-blue-ribbon-100 transition-all group">
+          <div class="h-12 w-12 flex items-center justify-center rounded-lg bg-blue-ribbon-50 mb-6 group-hover:bg-blue-ribbon-100 transition-colors">
+             <svg class="w-6 h-6 text-blue-ribbon-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
              </svg>
           </div>

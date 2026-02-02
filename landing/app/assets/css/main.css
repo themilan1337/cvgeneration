@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+@theme {
+    --color-blue-ribbon-50: #eff4ff;
+    --color-blue-ribbon-100: #dbe6fe;
+    --color-blue-ribbon-200: #bfd4fe;
+    --color-blue-ribbon-300: #93bafd;
+    --color-blue-ribbon-400: #6195f9;
+    --color-blue-ribbon-500: #356af5;
+    --color-blue-ribbon-600: #264fea;
+    --color-blue-ribbon-700: #1e3bd7;
+    --color-blue-ribbon-800: #1f31ae;
+    --color-blue-ribbon-900: #1e2f8a;
+    --color-blue-ribbon-950: #171f54;
+}
+
+:root {
+    --color-blue-ribbon-50: #eff4ff;
+    --color-blue-ribbon-100: #dbe6fe;
+    --color-blue-ribbon-200: #bfd4fe;
+    --color-blue-ribbon-300: #93bafd;
+    --color-blue-ribbon-400: #6195f9;
+    --color-blue-ribbon-500: #356af5;
+    --color-blue-ribbon-600: #264fea;
+    --color-blue-ribbon-700: #1e3bd7;
+    --color-blue-ribbon-800: #1f31ae;
+    --color-blue-ribbon-900: #1e2f8a;
+    --color-blue-ribbon-950: #171f54;
+}

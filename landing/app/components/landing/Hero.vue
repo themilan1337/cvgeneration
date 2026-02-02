@@ -4,7 +4,7 @@
     <header class="sticky top-0 z-50 w-full border-b border-gray-100 bg-white/80 backdrop-blur-md">
       <div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <div class="flex items-center gap-2">
-           <div class="h-8 w-8 bg-black rounded-lg"></div>
+           <div class="h-8 w-8 bg-blue-ribbon-600 rounded-lg"></div>
            <span class="text-lg font-bold tracking-tight text-gray-900">CV Gen</span>
         </div>
         <nav class="hidden md:flex gap-8">
@@ -13,8 +13,8 @@
             <a href="#about" class="text-sm font-medium text-gray-600 hover:text-gray-900">About</a>
         </nav>
         <div class="flex items-center gap-4">
-           <button class="text-sm font-semibold text-gray-900 hover:text-gray-700">Log in</button>
-           <button class="bg-black px-4 py-2 text-sm font-semibold text-white transition hover:bg-gray-800 rounded-lg">Sign up</button>
+           <button class="text-sm font-semibold text-gray-900 hover:text-blue-ribbon-600 transition-colors">Log in</button>
+           <button class="bg-blue-ribbon-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-ribbon-700 rounded-lg shadow-sm shadow-blue-ribbon-200">Sign up</button>
         </div>
       </div>
     </header>
@@ -29,7 +29,7 @@
             Generate resumes, portfolios, and custom domains effortlessly. Stand out with AI-driven insights and design.
           </p>
           <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-             <button class="rounded-lg bg-black px-8 py-3.5 text-base font-semibold text-white shadow-sm hover:bg-gray-800 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
+             <button class="rounded-lg bg-blue-ribbon-600 px-8 py-3.5 text-base font-semibold text-white shadow-sm hover:bg-blue-ribbon-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-ribbon-600 transition-all">
               Get Started
             </button>
             <button class="rounded-lg bg-gray-100 px-8 py-3.5 text-base font-semibold text-gray-900 hover:bg-gray-200">
