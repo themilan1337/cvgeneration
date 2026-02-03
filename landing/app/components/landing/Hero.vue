@@ -1,7 +1,10 @@
 <template>
   <section class="relative bg-white pt-0 pb-20 lg:pt-0 lg:pb-28 overflow-hidden">
     <!-- Sticky Header -->
-    <header class="sticky top-0 z-50 w-full border-b border-gray-100 bg-white/80 backdrop-blur-md">
+    <header 
+      ref="headerRef"
+      class="sticky top-0 z-50 w-full border-b border-gray-100 bg-white/80 backdrop-blur-md opacity-0"
+    >
       <div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <div class="flex items-center gap-2">
            <div class="h-8 w-8 bg-blue-ribbon-600 rounded-lg"></div>
@@ -79,16 +82,16 @@
       </div>
     </Teleport>
 
-    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-10 lg:pt-16">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-10 lg:pt-16 pb-12">
       <div class="lg:grid lg:grid-cols-12 lg:gap-16">
         <div class="lg:col-span-6 flex flex-col justify-center text-center lg:text-left">
-          <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl mb-6 text-center lg:text-left">
+          <h1 ref="titleRef" class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl mb-6 text-center lg:text-left opacity-0">
             Build your AI-powered professional presence in minutes.
           </h1>
-          <p class="mx-auto lg:mx-0 max-w-lg text-lg text-gray-600 mb-10">
+          <p ref="subTitleRef" class="mx-auto lg:mx-0 max-w-lg text-lg text-gray-600 mb-10 opacity-0">
             Generate resumes, portfolios, and custom domains effortlessly. Stand out with AI-driven insights and design.
           </p>
-          <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+          <div ref="actionsRef" class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start opacity-0">
              <button class="rounded-lg bg-blue-ribbon-600 px-8 py-3.5 text-base font-semibold text-white hover:bg-blue-ribbon-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-ribbon-600 transition-all">
               Get Started
             </button>
@@ -97,21 +100,56 @@
             </button>
           </div>
         </div>
-        <div class="relative mt-16 lg:mt-0 lg:col-span-6 flex items-center justify-center">
+        <div ref="imageRef" class="relative mt-16 lg:mt-0 lg:col-span-6 flex items-center justify-center opacity-0">
            <img src="/hero.png" alt="Hero Illustration" class="w-full h-auto rounded-2xl" />
         </div>
+      </div>
+    </div>
+
+    <!-- Logo Loop Section -->
+    <div ref="logoLoopRef" class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-20 opacity-0">
+      <p class="text-center text-xs font-bold uppercase tracking-widest text-gray-400 mb-12">
+        Trusted by creators and professionals
+      </p>
+      <div class="relative overflow-hidden">
+        <LogoLoop
+          :logos="techLogos"
+          :speed="80"
+          direction="left"
+          :logoHeight="32"
+          :gap="80"
+          :pauseOnHover="true"
+          :scaleOnHover="false"
+          :fadeOut="true"
+          fadeOutColor="#ffffff"
+        />
       </div>
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
-import { ref, watch } from 'vue'
+import { ref, watch, onMounted } from 'vue'
 import gsap from 'gsap'
+import LogoLoop from './LogoLoop.vue'
 
 const isMenuOpen = ref(false)
 const menuRef = ref<HTMLElement | null>(null)
+const headerRef = ref<HTMLElement | null>(null)
+const titleRef = ref<HTMLElement | null>(null)
+const subTitleRef = ref<HTMLElement | null>(null)
+const actionsRef = ref<HTMLElement | null>(null)
+const imageRef = ref<HTMLElement | null>(null)
+const logoLoopRef = ref<HTMLElement | null>(null)
 const menuLinksRef = ref<HTMLElement[]>([])
+
+const techLogos = [
+  { node: '<span class="text-2xl font-bold text-gray-300">Company</span>' },
+  { node: '<span class="text-2xl font-bold text-gray-300">Startup</span>' },
+  { node: '<span class="text-2xl font-bold text-gray-300">Agency</span>' },
+  { node: '<span class="text-2xl font-bold text-gray-300">Corporation</span>' },
+  { node: '<span class="text-2xl font-bold text-gray-300">Venture</span>' },
+]
 
 const menuLinks = [
   { name: 'Features', href: '#features' },
@@ -122,6 +160,17 @@ const menuLinks = [
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value
 }
+
+onMounted(() => {
+  const tl = gsap.timeline({ defaults: { ease: 'power2.out', duration: 0.8 } })
+  
+  tl.to(headerRef.value, { opacity: 1 })
+    .to(titleRef.value, { opacity: 1 }, "-=0.4")
+    .to(subTitleRef.value, { opacity: 1 }, "-=0.6")
+    .to(actionsRef.value, { opacity: 1 }, "-=0.6")
+    .to(imageRef.value, { opacity: 1 }, "-=0.6")
+    .to(logoLoopRef.value, { opacity: 1 }, "-=0.6")
+})
 
 watch(isMenuOpen, (isOpen) => {
   if (isOpen) {

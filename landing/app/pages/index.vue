@@ -1,10 +1,9 @@
 <template>
   <div class="min-h-screen font-sans text-gray-900 bg-white">
     <Hero />
-    <SocialProof />
     <Features />
-    <HowItWorks />
     <ValueProposition />
+    <Testimonials />
     <Pricing />
     <Footer />
   </div>
@@ -12,10 +11,9 @@
 
 <script setup lang="ts">
 import Hero from '@/components/landing/Hero.vue'
-import SocialProof from '@/components/landing/SocialProof.vue'
 import Features from '@/components/landing/Features.vue'
-import HowItWorks from '@/components/landing/HowItWorks.vue'
 import ValueProposition from '@/components/landing/ValueProposition.vue'
+import Testimonials from '@/components/landing/Testimonials.vue'
 import Pricing from '@/components/landing/Pricing.vue'
 import Footer from '@/components/landing/Footer.vue'
 
