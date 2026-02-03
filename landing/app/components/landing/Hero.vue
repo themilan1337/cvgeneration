@@ -86,7 +86,7 @@
       <div class="lg:grid lg:grid-cols-12 lg:gap-16">
         <div class="lg:col-span-6 flex flex-col justify-center text-center lg:text-left">
           <h1 ref="titleRef" class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl mb-6 text-center lg:text-left opacity-0">
-            Build your AI-powered professional presence in minutes.
+            Build your professional presence in minutes.
           </h1>
           <p ref="subTitleRef" class="mx-auto lg:mx-0 max-w-lg text-lg text-gray-600 mb-10 opacity-0">
             Generate resumes, portfolios, and custom domains effortlessly. Stand out with AI-driven insights and design.
