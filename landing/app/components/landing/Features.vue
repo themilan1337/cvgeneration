@@ -2,7 +2,7 @@
   <section id="features" class="py-24 bg-white">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="text-center max-w-3xl mx-auto mb-16">
-        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Everything you need to grow your career</h2>
+        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center">Everything you need to grow your career</h2>
         <p class="mt-4 text-lg text-gray-600">Powerful tools to help you land your dream job and build your personal brand.</p>
       </div>
 

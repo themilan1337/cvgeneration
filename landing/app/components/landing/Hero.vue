@@ -82,7 +82,7 @@
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-10 lg:pt-16">
       <div class="lg:grid lg:grid-cols-12 lg:gap-16">
         <div class="lg:col-span-6 flex flex-col justify-center text-center lg:text-left">
-          <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl mb-6">
+          <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl mb-6 text-center lg:text-left">
             Build your AI-powered professional presence in minutes.
           </h1>
           <p class="mx-auto lg:mx-0 max-w-lg text-lg text-gray-600 mb-10">
@@ -97,10 +97,8 @@
             </button>
           </div>
         </div>
-        <div class="relative mt-16 lg:mt-0 lg:col-span-6">
-           <div class="relative rounded-2xl bg-gray-50 border border-gray-200 p-2 aspect-[4/3] flex items-center justify-center">
-              <div class="text-gray-400 font-medium">UI Mockup Placeholder</div>
-           </div>
+        <div class="relative mt-16 lg:mt-0 lg:col-span-6 flex items-center justify-center">
+           <img src="/hero.png" alt="Hero Illustration" class="w-full h-auto rounded-2xl" />
         </div>
       </div>
     </div>

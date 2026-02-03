@@ -32,7 +32,7 @@
 
         <!-- Pro Plan -->
         <div class="rounded-2xl bg-blue-ribbon-50 p-8 flex flex-col relative scale-105 group">
-           <div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/4 bg-blue-ribbon-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
+           <div class="absolute top-0 left-1/2 -translate-y-1/2 -translate-x-1/2 bg-blue-ribbon-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider whitespace-nowrap">
               Popular
            </div>
           <h3 class="text-lg font-semibold text-gray-900">Pro</h3>
