@@ -1,5 +1,5 @@
 <template>
-  <section class="py-24 bg-gray-50 border-y border-gray-100">
+  <section class="py-24 bg-white border-y border-gray-100">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">How it works</h2>
@@ -12,7 +12,7 @@
 
         <!-- Step 1 -->
         <div class="flex flex-col items-center text-center group">
-          <div class="h-24 w-24 bg-white rounded-2xl border border-gray-200 shadow-sm flex items-center justify-center text-2xl font-bold text-blue-ribbon-600 mb-6 group-hover:border-blue-ribbon-200 group-hover:shadow-blue-ribbon-100 transition-all">
+          <div class="h-24 w-24 bg-gray-50 rounded-2xl flex items-center justify-center text-2xl font-bold text-blue-ribbon-600 mb-6 group-hover:bg-gray-100 transition-all">
             1
           </div>
           <h3 class="text-xl font-bold text-gray-900 mb-2">Upload your data</h3>
@@ -21,7 +21,7 @@
 
         <!-- Step 2 -->
         <div class="flex flex-col items-center text-center group">
-          <div class="h-24 w-24 bg-white rounded-2xl border border-gray-200 shadow-sm flex items-center justify-center text-2xl font-bold text-blue-ribbon-600 mb-6 group-hover:border-blue-ribbon-200 group-hover:shadow-blue-ribbon-100 transition-all">
+          <div class="h-24 w-24 bg-gray-50 rounded-2xl flex items-center justify-center text-2xl font-bold text-blue-ribbon-600 mb-6 group-hover:bg-gray-100 transition-all">
             2
           </div>
           <h3 class="text-xl font-bold text-gray-900 mb-2">AI generates content</h3>
@@ -30,7 +30,7 @@
 
         <!-- Step 3 -->
         <div class="flex flex-col items-center text-center group">
-          <div class="h-24 w-24 bg-white rounded-2xl border border-gray-200 shadow-sm flex items-center justify-center text-2xl font-bold text-blue-ribbon-600 mb-6 group-hover:border-blue-ribbon-200 group-hover:shadow-blue-ribbon-100 transition-all">
+          <div class="h-24 w-24 bg-gray-50 rounded-2xl flex items-center justify-center text-2xl font-bold text-blue-ribbon-600 mb-6 group-hover:bg-gray-100 transition-all">
             3
           </div>
           <h3 class="text-xl font-bold text-gray-900 mb-2">Publish & share</h3>
