@@ -6,7 +6,6 @@
     <HowItWorks />
     <ValueProposition />
     <Pricing />
-    <CTA />
     <Footer />
   </div>
 </template>
@@ -18,7 +17,6 @@ import Features from '@/components/landing/Features.vue'
 import HowItWorks from '@/components/landing/HowItWorks.vue'
 import ValueProposition from '@/components/landing/ValueProposition.vue'
 import Pricing from '@/components/landing/Pricing.vue'
-import CTA from '@/components/landing/CTA.vue'
 import Footer from '@/components/landing/Footer.vue'
 
 useHead({

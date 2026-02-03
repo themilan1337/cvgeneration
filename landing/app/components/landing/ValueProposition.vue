@@ -19,7 +19,7 @@
                     </div>
                  </li>
                  <li class="flex items-start">
-                    <div class="flex-shrink-0 h-6 w-6 flex items-center justify-center rounded-full bg-white/10 text-white mt-1">
+                    <div class="flex-shrink-0 h-6 w-6 flex items-center justify-center rounded-full bg-blue-ribbon-500 text-white mt-1">
                        <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
                        </svg>
