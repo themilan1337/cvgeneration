@@ -28,7 +28,6 @@
     --color-blue-ribbon-950: #171f54;
 }
 
-/* Adds pointer cursor to buttons */
 @layer base {
 
     button:not(:disabled),

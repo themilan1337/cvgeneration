@@ -40,12 +40,25 @@
         </button>
       </div>
 
-      <!-- Mobile Menu Overlay -->
+    </header>
+
+    <!-- Mobile Menu Overlay (Teleported to body to fix transparency/stacking issues) -->
+    <Teleport to="body">
       <div 
         ref="menuRef"
-        class="fixed inset-0 bg-white opacity-100 z-[60] translate-x-full md:hidden flex flex-col pt-24 px-8 w-full h-full"
-        style="background-color: #ffffff;"
+        class="fixed inset-0 bg-white z-[9999] translate-x-full md:hidden flex flex-col pt-24 px-8 w-full h-full"
+        style="background-color: #ffffff; opacity: 1 !important;"
       >
+        <!-- Close button inside the menu for better UX -->
+        <button 
+          @click="toggleMenu"
+          class="absolute top-6 right-6 h-10 w-10 flex items-center justify-center focus:outline-none"
+        >
+          <svg class="w-8 h-8 text-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+
         <div class="flex flex-col gap-8">
           <a 
             v-for="(link, i) in menuLinks" 
@@ -64,7 +77,7 @@
           </div>
         </div>
       </div>
-    </header>
+    </Teleport>
 
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-10 lg:pt-16">
       <div class="lg:grid lg:grid-cols-12 lg:gap-16">
