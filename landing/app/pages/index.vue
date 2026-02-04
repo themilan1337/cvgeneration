@@ -17,13 +17,12 @@ import Testimonials from '@/components/landing/Testimonials.vue'
 import Pricing from '@/components/landing/Pricing.vue'
 import Footer from '@/components/landing/Footer.vue'
 
-useHead({
-  title: 'CV Gen - AI Professional Presence',
-  meta: [
-    { name: 'description', content: 'Build your AI-powered professional presence in minutes. Generate resumes, portfolios, and custom domains effortlessly.' }
-  ],
-  htmlAttrs: {
-    lang: 'en'
-  }
+useSeoMeta({
+  title: 'CV Gen | AI-Powered Professional Presence Platform',
+  description: 'Build your AI-powered professional presence in minutes. Generate high-quality resumes, dynamic portfolios, and custom domains effortlessly with CV Gen.',
+  ogTitle: 'CV Gen | AI-Powered Professional Presence Platform',
+  ogDescription: 'Build your AI-powered professional presence in minutes. Generate high-quality resumes, dynamic portfolios, and custom domains effortlessly with CV Gen.',
+  ogImage: 'https://cvgen.app/og-main.jpg',
+  twitterCard: 'summary_large_image',
 })
 </script>

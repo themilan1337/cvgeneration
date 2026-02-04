@@ -5,6 +5,9 @@ export default defineNuxtConfig({
   ssr: true,
   devtools: { enabled: true },
   css: ['./app/assets/css/main.css'],
+  future: {
+    compatibilityVersion: 4,
+  },
   vite: {
     plugins: [
       tailwindcss(),
@@ -13,7 +16,17 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/a11y',
     '@nuxt/eslint',
+    '@nuxtjs/seo',
     '@nuxt/fonts',
     '@nuxt/image'
-  ]
+  ],
+  site: {
+    url: 'https://cvgen.app',
+    name: 'CV Gen',
+    description: 'AI-Powered Professional Presence Platform',
+    defaultLocale: 'en'
+  },
+  ogImage: {
+    enabled: false
+  }
 });
