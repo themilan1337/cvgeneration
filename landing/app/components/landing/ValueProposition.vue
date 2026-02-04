@@ -1,5 +1,5 @@
 <template>
-  <section class="py-24 bg-blue-ribbon-950 text-white">
+  <section class="py-24 bg-neutral-950 text-white">
      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
            <div>
@@ -8,7 +8,7 @@
               </h2>
               <ul class="space-y-6">
                  <li class="flex items-start">
-                    <div class="flex-shrink-0 h-6 w-6 flex items-center justify-center rounded-full bg-blue-ribbon-500 text-white mt-1">
+                    <div class="flex-shrink-0 h-6 w-6 flex items-center justify-center rounded-full bg-neutral-500 text-white mt-1">
                        <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
                        </svg>
@@ -19,7 +19,7 @@
                     </div>
                  </li>
                  <li class="flex items-start">
-                    <div class="flex-shrink-0 h-6 w-6 flex items-center justify-center rounded-full bg-blue-ribbon-500 text-white mt-1">
+                    <div class="flex-shrink-0 h-6 w-6 flex items-center justify-center rounded-full bg-neutral-500 text-white mt-1">
                        <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
                        </svg>
@@ -30,7 +30,7 @@
                     </div>
                  </li>
                   <li class="flex items-start">
-                    <div class="flex-shrink-0 h-6 w-6 flex items-center justify-center rounded-full bg-blue-ribbon-500 text-white mt-1">
+                    <div class="flex-shrink-0 h-6 w-6 flex items-center justify-center rounded-full bg-neutral-500 text-white mt-1">
                        <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7" />
                        </svg>
@@ -42,9 +42,9 @@
                  </li>
               </ul>
            </div>
-           <div class="bg-blue-ribbon-900 rounded-2xl border border-blue-ribbon-800 p-2 aspect-video flex items-center justify-center">
+           <div class="bg-neutral-900 rounded-2xl border border-neutral-800 p-2 aspect-video flex items-center justify-center">
               <!-- Placeholder for visual -->
-              <span class="text-blue-ribbon-300 font-bold text-xl">Visual Asset</span>
+              <span class="text-neutral-300 font-bold text-xl">Visual Asset</span>
            </div>
         </div>
      </div>

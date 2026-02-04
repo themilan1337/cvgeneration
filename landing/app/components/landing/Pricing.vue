@@ -17,11 +17,11 @@
           </p>
           <ul class="mt-8 space-y-4 flex-1">
             <li class="flex items-center text-sm text-gray-600">
-               <svg class="h-5 w-5 text-blue-ribbon-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+               <svg class="h-5 w-5 text-neutral-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
                1 Resume
             </li>
              <li class="flex items-center text-sm text-gray-600">
-               <svg class="h-5 w-5 text-blue-ribbon-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+               <svg class="h-5 w-5 text-neutral-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
                Basic Portfolio
             </li>
           </ul>
@@ -31,31 +31,31 @@
         </div>
 
         <!-- Pro Plan -->
-        <div class="rounded-2xl bg-blue-ribbon-50 p-8 flex flex-col relative scale-105 group">
-           <div class="absolute top-0 left-1/2 -translate-y-1/2 -translate-x-1/2 bg-blue-ribbon-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider whitespace-nowrap">
+        <div class="rounded-2xl bg-neutral-50 p-8 flex flex-col relative scale-105 group">
+           <div class="absolute top-0 left-1/2 -translate-y-1/2 -translate-x-1/2 bg-neutral-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider whitespace-nowrap">
               Popular
            </div>
           <h3 class="text-lg font-semibold text-gray-900">Pro</h3>
           <p class="mt-4 text-sm text-gray-500">For serious professionals.</p>
           <p class="mt-8">
-            <span class="text-4xl font-bold tracking-tight text-blue-ribbon-600">$12</span>
+            <span class="text-4xl font-bold tracking-tight text-neutral-600">$12</span>
             <span class="text-base font-medium text-gray-500">/mo</span>
           </p>
           <ul class="mt-8 space-y-4 flex-1">
             <li class="flex items-center text-sm text-gray-600">
-               <svg class="h-5 w-5 text-blue-ribbon-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+               <svg class="h-5 w-5 text-neutral-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
                Unlimited Resumes
             </li>
              <li class="flex items-center text-sm text-gray-600">
-               <svg class="h-5 w-5 text-blue-ribbon-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+               <svg class="h-5 w-5 text-neutral-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
                Custom Domain
             </li>
              <li class="flex items-center text-sm text-gray-600">
-               <svg class="h-5 w-5 text-blue-ribbon-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+               <svg class="h-5 w-5 text-neutral-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
                AI Personalization
             </li>
           </ul>
-          <button class="mt-8 block w-full rounded-lg bg-blue-ribbon-600 px-4 py-2.5 text-center text-sm font-semibold text-white hover:bg-blue-ribbon-500 transition-colors">
+          <button class="mt-8 block w-full rounded-lg bg-neutral-600 px-4 py-2.5 text-center text-sm font-semibold text-white hover:bg-neutral-500 transition-colors">
             Start Free Trial
           </button>
         </div>
@@ -70,15 +70,15 @@
           </p>
           <ul class="mt-8 space-y-4 flex-1">
             <li class="flex items-center text-sm text-gray-600">
-               <svg class="h-5 w-5 text-blue-ribbon-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+               <svg class="h-5 w-5 text-neutral-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
                Includes 5 Pro seats
             </li>
              <li class="flex items-center text-sm text-gray-600">
-               <svg class="h-5 w-5 text-blue-ribbon-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+               <svg class="h-5 w-5 text-neutral-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
                Team Analytics
             </li>
              <li class="flex items-center text-sm text-gray-600">
-               <svg class="h-5 w-5 text-blue-ribbon-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
+               <svg class="h-5 w-5 text-neutral-600 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
                Priority Support
             </li>
           </ul>

@@ -7,7 +7,7 @@
     >
       <div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <div class="flex items-center gap-2">
-           <div class="h-8 w-8 bg-blue-ribbon-600 rounded-lg"></div>
+           <div class="h-8 w-8 bg-neutral-600 rounded-lg"></div>
            <span class="text-lg font-bold tracking-tight text-gray-900">CV Gen</span>
         </div>
         
@@ -19,8 +19,8 @@
         </nav>
         
         <div class="hidden md:flex items-center gap-4">
-           <button class="text-sm font-semibold text-gray-900 hover:text-blue-ribbon-600 transition-colors">Log in</button>
-           <button class="bg-blue-ribbon-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-blue-ribbon-700 rounded-lg">Sign up</button>
+           <button class="text-sm font-semibold text-gray-900 hover:text-neutral-600 transition-colors">Log in</button>
+           <button class="bg-neutral-600 px-4 py-2 text-sm font-semibold text-white transition hover:bg-neutral-700 rounded-lg">Sign up</button>
         </div>
 
         <!-- Burger Button (Mobile) -->
@@ -69,14 +69,14 @@
             :href="link.href"
             ref="menuLinksRef"
             @click="isMenuOpen = false"
-            class="text-2xl font-bold text-gray-900 hover:text-blue-ribbon-600 transition-colors"
+            class="text-2xl font-bold text-gray-900 hover:text-neutral-600 transition-colors"
           >
             {{ link.name }}
           </a>
           <hr class="border-gray-100" />
           <div class="flex flex-col gap-4">
             <button class="w-full text-left text-xl font-semibold text-gray-900">Log in</button>
-            <button class="w-full bg-blue-ribbon-600 text-white py-4 rounded-xl text-xl font-bold">Sign up</button>
+            <button class="w-full bg-neutral-600 text-white py-4 rounded-xl text-xl font-bold">Sign up</button>
           </div>
         </div>
       </div>
@@ -92,7 +92,7 @@
             Generate resumes, portfolios, and custom domains effortlessly. Stand out with AI-driven insights and design.
           </p>
           <div ref="actionsRef" class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start opacity-0">
-             <button class="rounded-lg bg-blue-ribbon-600 px-8 py-3.5 text-base font-semibold text-white hover:bg-blue-ribbon-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-ribbon-600 transition-all">
+             <button class="rounded-lg bg-neutral-600 px-8 py-3.5 text-base font-semibold text-white hover:bg-neutral-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-neutral-600 transition-all">
               Get Started
             </button>
             <button class="rounded-lg bg-gray-100 px-8 py-3.5 text-base font-semibold text-gray-900 hover:bg-gray-200">
