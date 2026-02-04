@@ -1,8 +1,7 @@
 <script setup lang="ts">
 import type { Component } from "vue"
-import { IconCirclePlusFilled, IconMail } from "@tabler/icons-vue"
+import { IconPlus } from "@tabler/icons-vue"
 
-import { Button } from '@/components/ui/button'
 import {
   SidebarGroup,
   SidebarGroupContent,
@@ -24,31 +23,29 @@ defineProps<{
 
 <template>
   <SidebarGroup>
-    <SidebarGroupContent class="flex flex-col gap-2">
+    <SidebarGroupContent class="flex flex-col gap-4">
       <SidebarMenu>
-        <SidebarMenuItem class="flex items-center gap-2">
+        <SidebarMenuItem>
           <SidebarMenuButton
-            tooltip="Quick Create"
-            class="bg-primary text-primary-foreground hover:bg-primary/90 hover:text-primary-foreground active:bg-primary/90 active:text-primary-foreground min-w-8 duration-200 ease-linear"
+            tooltip="New Resume"
+            class="bg-neutral-900 text-white hover:bg-neutral-800 hover:text-white active:bg-neutral-900 active:text-white transition-all py-5"
+            as-child
           >
-            <IconCirclePlusFilled />
-            <span>Quick Create</span>
+            <a href="/resumes/new">
+              <IconPlus class="size-5" />
+              <span class="font-bold">New Resume</span>
+            </a>
           </SidebarMenuButton>
-          <Button
-            size="icon"
-            class="size-8 group-data-[collapsible=icon]:opacity-0"
-            variant="outline"
-          >
-            <IconMail />
-            <span class="sr-only">Inbox</span>
-          </Button>
         </SidebarMenuItem>
       </SidebarMenu>
+      
       <SidebarMenu>
         <SidebarMenuItem v-for="item in items" :key="item.title">
-          <SidebarMenuButton :tooltip="item.title">
-            <component :is="item.icon" v-if="item.icon" />
-            <span>{{ item.title }}</span>
+          <SidebarMenuButton :tooltip="item.title" as-child>
+             <a :href="item.url" class="flex items-center gap-2">
+                <component :is="item.icon" v-if="item.icon" class="size-5" />
+                <span class="font-medium text-neutral-600">{{ item.title }}</span>
+             </a>
           </SidebarMenuButton>
         </SidebarMenuItem>
       </SidebarMenu>

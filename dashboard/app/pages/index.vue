@@ -1,9 +1,13 @@
-<template>
-  <div>
-    <Button>Click me</Button>
-  </div>
-</template>
-
 <script setup lang="ts">
-import { Button } from '@/components/ui/button'
+definePageMeta({
+  middleware: [
+    function () {
+      return navigateTo('/dashboard')
+    },
+  ],
+})
 </script>
+
+<template>
+  <div>Redirecting...</div>
+</template>

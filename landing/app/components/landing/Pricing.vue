@@ -2,6 +2,7 @@
   <section id="pricing" class="py-24 bg-white">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
+        <img src="/dollar.png" alt="Dollar icon" class="mx-auto mb-4 w-28 h-32" />
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Simple, transparent pricing</h2>
         <p class="mt-4 text-lg text-gray-600">Start for free, upgrade when you need more power.</p>
       </div>

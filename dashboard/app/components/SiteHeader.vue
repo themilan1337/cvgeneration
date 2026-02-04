@@ -1,7 +1,18 @@
 <script setup lang="ts">
-import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
 import { SidebarTrigger } from '@/components/ui/sidebar'
+
+const route = useRoute()
+const pageTitle = computed(() => {
+  const path = route.path
+  if (path.includes('resumes')) return 'My Resumes'
+  if (path.includes('portfolios')) return 'Portfolios'
+  if (path.includes('domains')) return 'Custom Domains'
+  if (path.includes('ai-insights')) return 'AI Insights'
+  if (path.includes('analytics')) return 'Analytics'
+  if (path.includes('settings')) return 'Settings'
+  return 'Overview'
+})
 </script>
 
 <template>
@@ -12,20 +23,13 @@ import { SidebarTrigger } from '@/components/ui/sidebar'
         orientation="vertical"
         class="mx-2 data-[orientation=vertical]:h-4"
       />
-      <h1 class="text-base font-medium">
-        Documents
+      <h1 class="text-base font-semibold">
+        {{ pageTitle }}
       </h1>
       <div class="ml-auto flex items-center gap-2">
-        <Button variant="ghost" as-child size="sm" class="hidden sm:flex">
-          <a
-            href="https://github.com/shadcn-ui/ui/tree/main/apps/v4/app/(examples)/dashboard"
-            rel="noopener noreferrer"
-            target="_blank"
-            class="dark:text-foreground"
-          >
-            GitHub
-          </a>
-        </Button>
+        <button class="bg-neutral-900 text-white px-3 py-1.5 rounded-lg text-xs font-bold hover:bg-neutral-800 transition-all">
+          Quick Action
+        </button>
       </div>
     </div>
   </header>

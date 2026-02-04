@@ -43,8 +43,7 @@
               </ul>
            </div>
            <div class="bg-neutral-900 rounded-2xl border border-neutral-800 p-2 aspect-video flex items-center justify-center">
-              <!-- Placeholder for visual -->
-              <span class="text-neutral-300 font-bold text-xl">Visual Asset</span>
+              <img src="/visual.png" alt="CV Generation Visual" />
            </div>
         </div>
      </div>
