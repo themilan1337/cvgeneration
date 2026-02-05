@@ -77,7 +77,7 @@ useSeoMeta({
   ogTitle: 'Blog | CV Gen - AI Career Insights',
   description: 'Explore the latest articles on AI-powered resume writing, professional branding, and career success strategies.',
   ogDescription: 'Explore the latest articles on AI-powered resume writing, professional branding, and career success strategies.',
-  ogImage: 'https://cvgen.app/og-blog.jpg',
+  ogImage: 'https://serene.ws/og-blog.jpg',
   twitterCard: 'summary_large_image',
 })
 </script>

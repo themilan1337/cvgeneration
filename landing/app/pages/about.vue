@@ -72,7 +72,7 @@ useSeoMeta({
   ogTitle: 'About Us | CV Gen - Our Mission & Vision',
   description: 'Learn about the team behind CV Gen and our mission to revolutionize professional branding with AI.',
   ogDescription: 'Learn about the team behind CV Gen and our mission to revolutionize professional branding with AI.',
-  ogImage: 'https://cvgen.app/og-about.jpg',
+  ogImage: 'https://serene.ws/og-about.jpg',
   twitterCard: 'summary_large_image',
 })
 </script>

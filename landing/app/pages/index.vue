@@ -22,7 +22,7 @@ useSeoMeta({
   description: 'Build your AI-powered professional presence in minutes. Generate high-quality resumes, dynamic portfolios, and custom domains effortlessly with CV Gen.',
   ogTitle: 'CV Gen | AI-Powered Professional Presence Platform',
   ogDescription: 'Build your AI-powered professional presence in minutes. Generate high-quality resumes, dynamic portfolios, and custom domains effortlessly with CV Gen.',
-  ogImage: 'https://cvgen.app/og-main.jpg',
+  ogImage: 'https://serene.ws/og-main.jpg',
   twitterCard: 'summary_large_image',
 })
 </script>

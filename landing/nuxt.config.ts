@@ -21,7 +21,7 @@ export default defineNuxtConfig({
     '@nuxt/image'
   ],
   site: {
-    url: 'https://cvgen.app',
+    url: 'https://serene.ws',
     name: 'CV Gen',
     description: 'AI-Powered Professional Presence Platform',
     defaultLocale: 'en'

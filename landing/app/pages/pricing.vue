@@ -47,7 +47,7 @@ useSeoMeta({
   ogTitle: 'Pricing | CV Gen - Affordable AI Solutions',
   description: 'Find the perfect plan to boost your career. Affordable AI-powered resume and portfolio generation for everyone.',
   ogDescription: 'Find the perfect plan to boost your career. Affordable AI-powered resume and portfolio generation for everyone.',
-  ogImage: 'https://cvgen.app/og-pricing.jpg',
+  ogImage: 'https://serene.ws/og-pricing.jpg',
   twitterCard: 'summary_large_image',
 })
 </script>
