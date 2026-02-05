@@ -1,26 +1,8 @@
 <script setup lang="ts">
 import DataTable from "@/components/DataTable.vue"
+import { ref } from "vue"
 
-const portfolios = [
-  {
-    id: 2,
-    header: "Personal Portfolio 2024",
-    type: "Web Portfolio",
-    status: "Published",
-    target: "850",
-    limit: "Unlimited",
-    reviewer: "Custom Domain",
-  },
-  {
-    id: 5,
-    header: "Milan's Portfolio",
-    type: "Web Portfolio",
-    status: "Published",
-    target: "2,100",
-    limit: "Unlimited",
-    reviewer: "milan.cv",
-  },
-]
+const portfolios = ref([])
 </script>
 
 <template>
@@ -32,7 +14,11 @@ const portfolios = [
           Create New Portfolio
         </button>
       </div>
-      <DataTable :data="portfolios" />
+      <DataTable v-if="portfolios.length > 0" :data="portfolios" />
+      <div v-else class="flex flex-col items-center justify-center py-16 px-4">
+        <p class="text-neutral-500 text-lg font-medium">No portfolios yet</p>
+        <p class="text-neutral-400 text-sm mt-2">Create your first portfolio to showcase your work</p>
+      </div>
     </div>
   </NuxtLayout>
 </template>

@@ -1,20 +1,15 @@
 <script setup lang="ts">
 import { IconExternalLink, IconSettings } from "@tabler/icons-vue"
+import { ref } from "vue"
 
-const domains = [
-  {
-    domain: "milan.cv",
-    status: "Active",
-    connectedTo: "Milan's Portfolio",
-    expiry: "2025-02-15",
-  },
-  {
-    domain: "portfolio.milan.dev",
-    status: "Active",
-    connectedTo: "Personal Portfolio 2024",
-    expiry: "N/A (Subdomain)",
-  },
-]
+interface Domain {
+  domain: string
+  status: string
+  connectedTo: string
+  expiry: string
+}
+
+const domains = ref<Domain[]>([])
 </script>
 
 <template>
@@ -27,7 +22,7 @@ const domains = [
         </button>
       </div>
       
-      <div class="grid gap-4">
+      <div v-if="domains.length > 0" class="grid gap-4">
         <div v-for="domain in domains" :key="domain.domain" class="flex items-center justify-between p-4 rounded-xl border bg-card">
           <div class="flex flex-col gap-1">
             <div class="flex items-center gap-2">
@@ -45,6 +40,10 @@ const domains = [
              </button>
           </div>
         </div>
+      </div>
+      <div v-else class="flex flex-col items-center justify-center py-16 px-4">
+        <p class="text-neutral-500 text-lg font-medium">No custom domains connected</p>
+        <p class="text-neutral-400 text-sm mt-2">Connect a domain to personalize your portfolio URL</p>
       </div>
     </div>
   </NuxtLayout>

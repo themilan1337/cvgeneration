@@ -10,9 +10,16 @@ export default defineNuxtConfig({
     '@nuxt/image',
     'shadcn-nuxt'
   ],
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false,
+      ignore: ['**/*.ts'] // Exclude index.ts files to prevent duplicate component registration
+    }
+  ],
   shadcn: {
     prefix: '',
-    componentDir: 'components/ui',
+    componentDir: 'app/components/ui',
   },
   css: ['~/assets/css/tailwind.css'],
   vite: {

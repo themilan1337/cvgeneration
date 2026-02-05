@@ -18,25 +18,25 @@ import SectionCards from "@/components/SectionCards.vue"
       <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         <div class="p-6 rounded-2xl border bg-white flex flex-col gap-2">
           <span class="text-sm font-semibold text-neutral-500 uppercase tracking-wider">Top Resume</span>
-          <span class="text-lg font-bold">Software Engineer CV</span>
+          <span class="text-lg font-bold">-</span>
           <div class="flex items-center gap-2 mt-2">
-            <span class="text-2xl font-black">1.2k</span>
-            <span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full">+14%</span>
+            <span class="text-2xl font-black">0</span>
+            <span class="text-xs font-bold text-neutral-400 bg-neutral-50 px-2 py-0.5 rounded-full">views</span>
           </div>
         </div>
         <div class="p-6 rounded-2xl border bg-white flex flex-col gap-2">
           <span class="text-sm font-semibold text-neutral-500 uppercase tracking-wider">Top Portfolio</span>
-          <span class="text-lg font-bold">Milan's Portfolio</span>
+          <span class="text-lg font-bold">-</span>
           <div class="flex items-center gap-2 mt-2">
-            <span class="text-2xl font-black">2.1k</span>
-            <span class="text-xs font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full">+22%</span>
+            <span class="text-2xl font-black">0</span>
+            <span class="text-xs font-bold text-neutral-400 bg-neutral-50 px-2 py-0.5 rounded-full">views</span>
           </div>
         </div>
         <div class="p-6 rounded-2xl border bg-white flex flex-col gap-2">
           <span class="text-sm font-semibold text-neutral-500 uppercase tracking-wider">Storage Used</span>
-          <span class="text-lg font-bold">142 MB / 5 GB</span>
+          <span class="text-lg font-bold">0 MB / 5 GB</span>
           <div class="w-full bg-neutral-100 h-2 rounded-full mt-2 overflow-hidden">
-            <div class="bg-primary h-full w-[3%]"></div>
+            <div class="bg-primary h-full w-[0%]"></div>
           </div>
         </div>
       </div>
