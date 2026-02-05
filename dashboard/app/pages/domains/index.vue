@@ -17,7 +17,10 @@ const domains = ref<Domain[]>([])
     <div class="px-4 lg:px-6 py-6 flex flex-col gap-6">
       <div class="flex items-center justify-between">
         <h1 class="text-3xl font-bold tracking-tight">Custom Domains</h1>
-        <button class="rounded-lg bg-neutral-900 px-4 py-2 text-sm font-semibold text-white hover:bg-neutral-800 transition-all">
+        <button 
+          @click="navigateTo('/domains/new')"
+          class="rounded-lg bg-neutral-900 px-4 py-2 text-sm font-semibold text-white hover:bg-neutral-800 transition-all"
+        >
           Connect Domain
         </button>
       </div>

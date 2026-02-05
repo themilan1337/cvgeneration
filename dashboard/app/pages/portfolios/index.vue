@@ -10,7 +10,10 @@ const portfolios = ref([])
     <div class="px-4 lg:px-6 py-6 flex flex-col gap-6">
       <div class="flex items-center justify-between">
         <h1 class="text-3xl font-bold tracking-tight">Portfolios</h1>
-        <button class="rounded-lg bg-neutral-900 px-4 py-2 text-sm font-semibold text-white hover:bg-neutral-800 transition-all">
+        <button 
+          @click="navigateTo('/portfolios/new')"
+          class="rounded-lg bg-neutral-900 px-4 py-2 text-sm font-semibold text-white hover:bg-neutral-800 transition-all"
+        >
           Create New Portfolio
         </button>
       </div>
